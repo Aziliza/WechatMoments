@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-07-05">
-    <creator>NetworkX 3.3</creator>
+  <meta lastmodifieddate="2025-07-06">
+    <creator>NetworkX 3.5</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
@@ -499,6 +499,7 @@
       <edge source="张婷" target="实践活动" id="214" />
       <edge source="张婷" target="林斯琦" id="215" />
       <edge source="张婷" target="王嘉兴" id="216" />
+      <edge source="张婷" target="胡佳辉" id="905" />
       <edge source="高德hr" target="高德hr" id="217" />
       <edge source="张皓丹" target="张皓丹" id="218" />
       <edge source="张皓丹" target="秦蓉" id="219" />

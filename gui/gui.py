@@ -225,6 +225,7 @@ class Gui:
         self.convert_video_var = tkinter.IntVar(value=0)
         self.convert_video = tkinter.ttk.Checkbutton(self.root, text='视频转码', variable=self.convert_video_var)
         self.convert_video.place(relx=0.65, rely=0.45)
+
         ToolTip(self.convert_video,
                 "视频原始格式为H265,只支持\nChrome浏览器播放，勾选后\n将视频转码为H264,支持大\n部分浏览器，但导出速度变慢")
 
@@ -234,6 +235,13 @@ class Gui:
         self.confirm_button = tkinter.ttk.Button(self.root, textvariable=self.confirm_button_text,
                                                  command=self.confirm_export)
         self.confirm_button.place(relx=0.65, rely=0.6)
+        from app.DataBase.moment_graph import generate_comment_network
+        self.graph_button_text = tkinter.StringVar()
+        self.graph_button_text.set("朋友关系图")
+
+        self.graph_button = tkinter.ttk.Button(self.root, textvariable=self.graph_button_text,
+                                                 command=generate_comment_network)
+        self.graph_button.place(relx=0.65, rely=0.6)
 
         # 导出成功的提示
         self.succeed_label = tkinter.Label(self.root, text="导出结束")
