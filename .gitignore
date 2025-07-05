@@ -4,3 +4,5 @@ build/
 dist/
 output/
 app/DataBase/Msg
+__pycache__/
+lib/

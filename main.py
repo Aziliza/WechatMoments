@@ -1,8 +1,14 @@
+'''
+Author: qianyu
+Date: 2025-06-28 15:48:12
+LastEditTime: 2025-07-03 23:44:46
+'''
 import threading
-import tkinter
 import traceback
 from time import sleep
-from pywxdump import read_info
+
+from pywxdump import get_wx_info
+
 
 def main():
     from gui.gui import Gui
@@ -14,7 +20,7 @@ def main():
     info = ""
     while True:
         try:
-            info = read_info(None, is_logging=True)
+            info = get_wx_info()
         except:
             traceback.print_exc()
         # 如果解密失败，读取到报错信息

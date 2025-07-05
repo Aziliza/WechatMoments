@@ -1,0 +1,23 @@
+[project]
+name = "wechatmoments"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dataclasses-json>=0.6.7",
+    "filetype>=1.2.0",
+    "ipykernel>=6.29.5",
+    "networkx>=3.5",
+    "opencv-python>=4.11.0.86",
+    "pandas>=2.3.0",
+    "pillow>=10.2.0",
+    "pyautogui>=0.9.54",
+    "pyvis>=0.3.2",
+    "pywin32>=310",
+    "pywxdump==3.1.45",
+    "requests>=2.31.0",
+    "retry>=0.9.2",
+    "tkcalendar>=1.6.1",
+    "xmltodict>=0.14.2",
+]
