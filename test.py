@@ -1,10 +1,11 @@
 import datetime
+import threading
+from time import sleep
+
+from pywxdump import read_info
 
 from decrypter.image_decrypt import ImageDecrypter
 from decrypter.video_decrypt import VideoDecrypter
-import threading
-from time import sleep
-from pywxdump import read_info
 from gui.gui import Gui
 
 
@@ -32,8 +33,8 @@ def stage_3():
             gui.account_info = result[0]
             gui.waiting_label.config(text="微信已登录")
             # 初始化视频导出器
-            gui.video_decrypter = VideoDecrypter(gui, gui.account_info.get("filePath"))
-            gui.image_decrypter = ImageDecrypter(gui, gui.account_info.get("filePath"))
+            gui.video_decrypter = VideoDecrypter(gui, gui.account_info.get("wx_dir"))
+            gui.image_decrypter = ImageDecrypter(gui, gui.account_info.get("wx_dir"))
             gui.waiting_label.place_forget()
             break
 

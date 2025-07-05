@@ -5,16 +5,18 @@ import tkinter.ttk
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
+
 import tkcalendar
+
 from decrypter.db_decrypt import DatabaseDecrypter
 from decrypter.image_decrypt import ImageDecrypter
 from decrypter.video_decrypt import VideoDecrypter
-from gui.auto_scroll_guide import AutoScrollGuide
-from gui.auto_scrolls_single_guide import AutoScrollSingleGuide
-from gui.tool_tip import ToolTip
 from entity.contact import Contact
 from exporter.html_exporter import HtmlExporter
+from gui.auto_scroll_guide import AutoScrollGuide
+from gui.auto_scrolls_single_guide import AutoScrollSingleGuide
 from gui.listbox_with_search import ListboxWithSearch
+from gui.tool_tip import ToolTip
 
 
 class Gui:
@@ -142,7 +144,7 @@ class Gui:
             self.restart_note2.place_forget()
             self.waiting_label.place_forget()
 
-            self.decrypter = DatabaseDecrypter(self, self.account_info.get("filePath"), self.account_info.get("key"))
+            self.decrypter = DatabaseDecrypter(self, self.account_info.get("wx_dir"), self.account_info.get("key"))
 
             self.decrypt_note_text = tkinter.StringVar()
             self.decrypt_note_text.set("正在复制数据.....")
@@ -166,9 +168,9 @@ class Gui:
             # 不再有下一步按钮
             self.next_step_button.place_forget()
             # 初始化视频导出器
-            self.video_decrypter = VideoDecrypter(self, self.account_info.get("filePath"))
+            self.video_decrypter = VideoDecrypter(self, self.account_info.get("wx_dir"))
             # 初始化图片导出器
-            self.image_decrypter = ImageDecrypter(self, self.account_info.get("filePath"))
+            self.image_decrypter = ImageDecrypter(self, self.account_info.get("wx_dir"))
 
 
         self.page_stage = self.page_stage + 1
