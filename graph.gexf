@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-06-30">
+  <meta lastmodifieddate="2025-07-05">
     <creator>NetworkX 3.3</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -259,6 +259,9 @@
       <node id="宋帛洋" label="宋帛洋" />
       <node id="郑伯谦" label="郑伯谦" />
       <node id="孟晓宇" label="孟晓宇" />
+      <node id="wxid_so7qmenkgyc221" label="wxid_so7qmenkgyc221" />
+      <node id="家教 高中数理" label="家教 高中数理" />
+      <node id="流统韩鹤祥" label="流统韩鹤祥" />
     </nodes>
     <edges>
       <edge source="陈佳怡" target="李梓棋" id="0" />
@@ -315,8 +318,11 @@
       <edge source="欧阳志欣" target="冯红曼" id="51" />
       <edge source="欧阳志欣" target="王璐" id="52" />
       <edge source="欧阳志欣" target="梁洁" id="53" />
+      <edge source="欧阳志欣" target="邹明君专硕18089204572" id="865" />
       <edge source="流统李佳潞" target="实践活动" id="54" />
       <edge source="流统李佳潞" target="冯红曼" id="55" />
+      <edge source="流统李佳潞" target="邹明君专硕18089204572" id="866" />
+      <edge source="流统李佳潞" target="廖振立" id="867" />
       <edge source="邹明君专硕18089204572" target="张皓丹" id="56" />
       <edge source="邹明君专硕18089204572" target="秦蓉" id="57" />
       <edge source="邹明君专硕18089204572" target="张婷" id="58" />
@@ -335,6 +341,10 @@
       <edge source="邹明君专硕18089204572" target="流统宋兆杰" id="71" />
       <edge source="邹明君专硕18089204572" target="杨海林" id="72" />
       <edge source="邹明君专硕18089204572" target="刘晔桐" id="73" />
+      <edge source="邹明君专硕18089204572" target="邹明君专硕18089204572" id="868" />
+      <edge source="邹明君专硕18089204572" target="余雅馨" id="869" />
+      <edge source="邹明君专硕18089204572" target="流统唐阿美" id="870" />
+      <edge source="邹明君专硕18089204572" target="公卫 张岚" id="871" />
       <edge source="宋雨春" target="王璐" id="74" />
       <edge source="宋雨春" target="王慧慧" id="75" />
       <edge source="宋雨春" target="张婷" id="76" />
@@ -346,6 +356,11 @@
       <edge source="宋雨春" target="冯红曼" id="82" />
       <edge source="宋雨春" target="李铭" id="83" />
       <edge source="宋雨春" target="梁洁" id="84" />
+      <edge source="宋雨春" target="宋雨春" id="872" />
+      <edge source="宋雨春" target="流统杜雅宁" id="873" />
+      <edge source="宋雨春" target="周金龙" id="874" />
+      <edge source="宋雨春" target="流统韩鹤祥" id="875" />
+      <edge source="宋雨春" target="公卫 张岚" id="876" />
       <edge source="杨海林" target="秦蓉" id="85" />
       <edge source="杨海林" target="谢晓玉" id="86" />
       <edge source="杨海林" target="流统牛惠" id="87" />
@@ -358,6 +373,9 @@
       <edge source="廖振立" target="李宗昊" id="94" />
       <edge source="廖振立" target="周金龙" id="95" />
       <edge source="廖振立" target="流统符一凡" id="96" />
+      <edge source="廖振立" target="流统赵宇瀚" id="877" />
+      <edge source="廖振立" target="流统王梦纯" id="878" />
+      <edge source="廖振立" target="流统李星艳" id="879" />
       <edge source="流统白旭" target="流统郭子涵" id="97" />
       <edge source="流统白旭" target="流统莫剑慧" id="98" />
       <edge source="流统白旭" target="流统赵媛阳" id="99" />
@@ -405,6 +423,9 @@
       <edge source="周金龙" target="冯红曼" id="141" />
       <edge source="周金龙" target="王璐" id="142" />
       <edge source="周金龙" target="梁洁" id="143" />
+      <edge source="周金龙" target="张彤欣" id="880" />
+      <edge source="周金龙" target="周金龙" id="881" />
+      <edge source="周金龙" target="薛志强" id="882" />
       <edge source="流统师振源" target="秦蓉" id="144" />
       <edge source="流统师振源" target="流统李伟" id="145" />
       <edge source="流统师振源" target="谢晓玉" id="146" />
@@ -525,6 +546,7 @@
       <edge source="李莎" target="刘耘恺" id="261" />
       <edge source="李莎" target="高菲然" id="262" />
       <edge source="李莎" target="王雪曼" id="263" />
+      <edge source="李莎" target="肖敏" id="883" />
       <edge source="石梁梨" target="吴清月" id="264" />
       <edge source="石梁梨" target="周园清" id="265" />
       <edge source="石梁梨" target="舒一鸣" id="266" />
@@ -652,6 +674,7 @@
       <edge source="张彤欣" target="张彤欣" id="388" />
       <edge source="魏羽东" target="21级李增斌" id="389" />
       <edge source="魏羽东" target="王静" id="390" />
+      <edge source="魏羽东" target="21-专硕-卢鹏屹" id="884" />
       <edge source="朱婧" target="流统赵媛阳" id="391" />
       <edge source="胡金成" target="陈渊泽" id="392" />
       <edge source="胡金成" target="张溯良" id="393" />
@@ -742,6 +765,7 @@
       <edge source="流统唐阿美" target="流统赵媛阳" id="478" />
       <edge source="流统唐阿美" target="冯红曼" id="479" />
       <edge source="流统唐阿美" target="流统牛惠" id="480" />
+      <edge source="流统唐阿美" target="陈曼青" id="885" />
       <edge source="陈渊泽" target="陈曼青" id="481" />
       <edge source="陈渊泽" target="刘翔宇" id="482" />
       <edge source="陈渊泽" target="唐诗诗" id="483" />
@@ -751,6 +775,9 @@
       <edge source="陈渊泽" target="陈渊泽" id="487" />
       <edge source="陈渊泽" target="公卫 马倩" id="488" />
       <edge source="陈曼青" target="助教-杨佩莹" id="489" />
+      <edge source="陈曼青" target="陈曼青" id="886" />
+      <edge source="陈曼青" target="流统李星艳" id="887" />
+      <edge source="陈曼青" target="流统王梦纯" id="888" />
       <edge source="刘耘恺" target="陈栩" id="490" />
       <edge source="刘耘恺" target="wxid_m29ox6s55zzz12" id="491" />
       <edge source="刘耘恺" target="周宏宇" id="492" />
@@ -770,6 +797,8 @@
       <edge source="李纤" target="赵梓铭" id="506" />
       <edge source="李纤" target="张雪" id="507" />
       <edge source="李纤" target="李纤" id="508" />
+      <edge source="肖敏" target="肖敏" id="889" />
+      <edge source="肖敏" target="彭瑾" id="890" />
       <edge source="wxid_ywp84u9mygk322" target="陈适航 计算机" id="509" />
       <edge source="陈适航 计算机" target="王嘉兴" id="510" />
       <edge source="药化陈延红" target="药化陈延红" id="511" />
@@ -823,6 +852,7 @@
       <edge source="张尚懿" target="孙思雨" id="559" />
       <edge source="张尚懿" target="李润华" id="560" />
       <edge source="张尚懿" target="高熙" id="561" />
+      <edge source="张尚懿" target="郭建华" id="891" />
       <edge source="朱梦鹮" target="黄维" id="562" />
       <edge source="朱梦鹮" target="刘冠章" id="563" />
       <edge source="朱梦鹮" target="孟泽宇" id="564" />
@@ -862,18 +892,23 @@
       <edge source="尹怡然" target="张安博" id="598" />
       <edge source="尹怡然" target="孙思雨" id="599" />
       <edge source="尹怡然" target="李润华" id="600" />
+      <edge source="尹怡然" target="郭建华" id="892" />
+      <edge source="尹怡然" target="高熙" id="893" />
       <edge source="张安博" target="黄维" id="601" />
       <edge source="张安博" target="刘冠章" id="602" />
       <edge source="张安博" target="雷渝越" id="603" />
       <edge source="张安博" target="xuej1112" id="604" />
       <edge source="张安博" target="李润华" id="605" />
       <edge source="张安博" target="邓中胜" id="606" />
+      <edge source="张安博" target="郭建华" id="894" />
+      <edge source="张安博" target="高熙" id="895" />
       <edge source="朱明轩" target="黄维" id="607" />
       <edge source="朱明轩" target="刘冠章" id="608" />
       <edge source="朱明轩" target="雷渝越" id="609" />
       <edge source="朱明轩" target="xuej1112" id="610" />
       <edge source="朱明轩" target="邓中胜" id="611" />
       <edge source="朱明轩" target="李润华" id="612" />
+      <edge source="朱明轩" target="郭建华" id="896" />
       <edge source="黄维" target="xuej1112" id="613" />
       <edge source="黄维" target="黄维" id="614" />
       <edge source="黄维" target="万欣怡" id="615" />
@@ -916,11 +951,15 @@
       <edge source="高熙" target="wxid_x6pdax71l6n812" id="652" />
       <edge source="高熙" target="郭建华" id="653" />
       <edge source="高熙" target="亲小马" id="654" />
+      <edge source="高熙" target="邹亚非" id="897" />
+      <edge source="高熙" target="刘一龙" id="898" />
       <edge source="郭建华" target="李润华" id="655" />
       <edge source="郭建华" target="邓中胜" id="656" />
       <edge source="郭建华" target="wxid_x6pdax71l6n812" id="657" />
       <edge source="郭建华" target="孟泽宇" id="658" />
       <edge source="郭建华" target="亲小马" id="659" />
+      <edge source="郭建华" target="邹亚非" id="899" />
+      <edge source="郭建华" target="刘一龙" id="900" />
       <edge source="邹亚非" target="邓中胜" id="660" />
       <edge source="邹亚非" target="李润华" id="661" />
       <edge source="李润华" target="邓中胜" id="662" />
@@ -982,6 +1021,8 @@
       <edge source="刘展" target="赵梓铭" id="718" />
       <edge source="赵鹤" target="陈世龙" id="719" />
       <edge source="赵鹤" target="王浩宇" id="720" />
+      <edge source="赵鹤" target="吴天泽" id="901" />
+      <edge source="赵鹤" target="秦昭化" id="902" />
       <edge source="高菲然" target="王宇泽" id="721" />
       <edge source="高菲然" target="高菲然" id="722" />
       <edge source="李恒" target="李恒" id="723" />
@@ -1017,6 +1058,7 @@
       <edge source="杨舒涵" target="樊艺璇" id="753" />
       <edge source="杨舒涵" target="刘佳洋" id="754" />
       <edge source="刘佳洋" target="刘佳洋" id="755" />
+      <edge source="刘佳洋" target="wxid_so7qmenkgyc221" id="903" />
       <edge source="李珂" target="蒋楷杰" id="756" />
       <edge source="李珂" target="漫贵贵" id="757" />
       <edge source="李珂" target="李珂" id="758" />
@@ -1126,6 +1168,7 @@
       <edge source="王芳-付姥姥驿站主理人" target="王芳-付姥姥驿站主理人" id="862" />
       <edge source=". 来日方长 💫 ." target=". 来日方长 💫 ." id="863" />
       <edge source="孟晓宇" target="孟晓宇" id="864" />
+      <edge source="家教 高中数理" target="家教 高中数理" id="904" />
     </edges>
   </graph>
 </gexf>
